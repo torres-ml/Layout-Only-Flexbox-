@@ -125,10 +125,17 @@ main {
 header,
 footer,
 main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
 
 }
 
@@ -139,6 +146,9 @@ main {
   background-color: #f16059;
   width: 30%;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ==========================================================================
