@@ -128,7 +128,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  width: 100%;
 }
 
 .flex-container {
@@ -236,10 +236,12 @@ main {
   #div-1,
   #div-2{
       /* set your flex value to 1 50% */
+      flex: 1 50%;
   }
 
   #div-3 {
     /* set your flex value to 1 100% */
+    flex: 1 100%
   }
 }
 
